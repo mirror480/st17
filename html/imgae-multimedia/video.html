@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>video 삽입</title>
+</head>
+<body>
+  <h1>비디오 삽입</h1>
+  <div class="sample">
+    <div class="box">
+      <h2>속성 muted playsinline autoplay</h2>
+      <video controls poster="media/halongbay_320_2_Moment.jpg" muted playsinline autoplay> 
+       <source src="//usingu.co.kr/asset/media/halongbay_320_2.webm" type="video/webm">
+        <source src="//usingu.co.kr/asset/media/halongbay_320_2.mp4" type="video/mp4">
+        <p>사용하시는 브라우저는 제공하는 동영상을 실행하지 못합니다. </p>
+      </video>
+    </div>
+  </div>
+
+  <div class="sample">
+    <div class="box">
+      <h2>속성 playsinline autoplay</h2>
+      <video controls poster="media/halongbay_320_2_Moment.jpg" playsinline autoplay>
+       <source src="//usingu.co.kr/asset/media/halongbay_320_2.webm" type="video/webm">
+        <source src="//usingu.co.kr/asset/media/halongbay_320_2.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+
+
+
+  <style>
+    *{padding:0; margin:0}
+    .sample{
+      border: 8px solid #f3f3f3;
+    padding: 1rem;
+    }
+   
+  </style>
+  
+
+</body>
+</html>
